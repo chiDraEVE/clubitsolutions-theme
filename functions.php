@@ -77,7 +77,7 @@ if ( ! function_exists( 'clubitsolutions_theme_setup' ) ) :
 			apply_filters(
 				'clubitsolutions_theme_custom_background_args',
 				array(
-					'default-color' => 'ffffff',
+					'default-color' => '121517ff',
 					'default-image' => '',
 				)
 			)
@@ -140,6 +140,11 @@ add_action( 'widgets_init', 'clubitsolutions_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function clubitsolutions_theme_scripts() {
+	wp_enqueue_style('cousine-regular', '//fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700');
+//	wp_enqueue_style('crimson-pro', '//fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,700;1,400;1,700');
+	wp_enqueue_style('maven-pro', '//fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700');
+//	wp_enqueue_style('dancing-script', '//fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700');
+	
 	wp_enqueue_style( 'clubitsolutions-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'clubitsolutions-theme-style', 'rtl', 'replace' );
 
