@@ -13,7 +13,11 @@ module.exports = merge(common, {
 			"clubitsolutions.local",
 			"http://blog.clubitsolutions.local"
 		],
-		watchFiles: ["./**/*.php", "!./functions.php"],
+		watchFiles: [
+			"./**/*.php",
+			"../clubitsolutions-child_theme/**/*.php",
+			"!./functions.php"
+		],
 		static: "./assets",
 		hot: true,
 		headers: {

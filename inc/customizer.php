@@ -56,6 +56,7 @@ function clubitsolutions_theme_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function clubitsolutions_theme_customize_preview_js() {
-	wp_enqueue_script( 'clubitsolutions-theme-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+	wp_enqueue_script( 'clubitsolutions-theme-customizer', get_template_directory_uri() . '/assets/customizer.js', array(
+		'customize-preview' ), '0.1', true );
 }
 add_action( 'customize_preview_init', 'clubitsolutions_theme_customize_preview_js' );
