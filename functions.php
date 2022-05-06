@@ -53,6 +53,21 @@ if ( ! function_exists( 'clubitsolutions_theme_setup' ) ) :
 				'menu-1' => esc_html__( 'Primary', 'clubitsolutions-theme' ),
 			)
 		);
+		register_nav_menus(
+			array(
+				'menu-2' => esc_html__( 'Secondary', 'clubitsolutions-theme' ),
+			)
+		);
+		register_nav_menus(
+			array(
+				'menu-social' => esc_html__( 'Social', 'clubitsolutions-theme' ),
+			)
+		);
+		register_nav_menus(
+			array(
+				'menu-footer' => esc_html__( 'Footer', 'clubitsolutions-theme' ),
+			)
+		);
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -133,6 +148,17 @@ function clubitsolutions_theme_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar2', 'clubitsolutions-theme' ),
+			'id'            => 'sidebar-2',
+			'description'   => esc_html__( 'Add widgets here.', 'clubitsolutions-theme' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
 }
 add_action( 'widgets_init', 'clubitsolutions_theme_widgets_init' );
 
@@ -140,10 +166,11 @@ add_action( 'widgets_init', 'clubitsolutions_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function clubitsolutions_theme_scripts() {
-	wp_enqueue_style('cousine-regular', '//fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700');
-//	wp_enqueue_style('crimson-pro', '//fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,700;1,400;1,700');
-	wp_enqueue_style('maven-pro', '//fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700');
-//	wp_enqueue_style('dancing-script', '//fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700');
+	wp_enqueue_style('cousine-regular', get_template_directory_uri() . '/cousine.css');
+	wp_enqueue_style('crimson-pro', get_template_directory_uri() . '/crimson-pro.css');
+	wp_enqueue_style('libre-franklin', get_template_directory_uri() . '/libre-franklin.css');
+	wp_enqueue_style('dancing-script', get_template_directory_uri() . '/dancing-script.css');
+	
 	
 	wp_enqueue_style( 'clubitsolutions-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'clubitsolutions-theme-style', 'rtl', 'replace' );

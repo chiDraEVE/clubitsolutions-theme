@@ -1,0 +1,22 @@
+#masthead
+  display: grid
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr)
+  align-items: center
+  margin-top: $margin-top
+  margin-inline: $margin-inline
+  grid-row: 1 / 1
+
+.custom-logo
+  height: 20vw
+  max-height: 250px
+  min-width: 15rem
+  //max-width: 25rem
+  object-fit: cover
+
+#site-navigation
+  display: flex
+  justify-content: flex-end
+  flex-wrap: wrap
+
+.menu-item
+  padding-left: 1rem

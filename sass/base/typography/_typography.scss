@@ -13,8 +13,13 @@ textarea {
 @import "headings";
 @import "copy";
 
-pre {
+pre, code {
 	color: $sky-blue-crayola-fully-saturated;
+	font-family: $font__code;
+}
+
+em {
+	font-family: $font__handwritten;
 }
 
 h1,
@@ -24,4 +29,5 @@ h4,
 h5,
 h6 {
 	color: $princeton-orange;
+	font-family: $font__handwritten;
 }
