@@ -1,3 +1,59 @@
-footer.site-footer
+.site-footer
   display: grid
   grid-template-columns: 1fr 1fr 1fr
+  grid-gap: 3rem
+  justify-items: end
+  align-items: center
+  margin-inline: $margin-inline
+  text-align: right
+
+  @media (max-width: 1000px)
+    text-align: center
+
+  &__item
+    align-items: center
+
+  & svg
+    color: transparent
+    fill: $platinum
+    width: 3rem
+    height: 3rem
+    margin: 1rem
+
+  & ul
+    list-style: none
+    margin: 0
+
+
+.menu-social__item
+  display: grid
+  grid-template-columns: min-content 1fr
+  justify-items: center
+
+  @media (max-width: 1000px)
+    grid-template-columns: 1fr
+
+.menu-footer .menu
+  display: flex
+  justify-content: center
+
+  & li
+    border-right: 1ps solid $platinum
+
+a.to-the-top
+  justify-self: end
+  white-space: nowrap
+
+  & > *
+    pointer-events: none
+
+.to-the-top-long
+  display: none
+
+  @media (min-width: 780px)
+    display: inline
+
+.to-the-top-short
+
+  @media (min-width: 780px)
+    display: none
