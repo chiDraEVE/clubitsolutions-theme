@@ -185,6 +185,8 @@ function clubitsolutions_theme_scripts() {
 		wp_enqueue_script( 'clubitsolutions-js', 'http://localhost:8080/index.js', array(),
 			wp_get_theme()->get
 			( 'Version' ) );
+	} else {
+		wp_enqueue_style('clubitsolutions-style', get_template_directory_uri() . '/assets/720.95870dabed49ecb5a3e8.css');
 	}
 }
 add_action( 'wp_enqueue_scripts', 'clubitsolutions_theme_scripts' );
