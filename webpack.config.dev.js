@@ -16,6 +16,8 @@ module.exports = merge(common, {
 		watchFiles: [
 			"./**/*.php",
 			"../clubitsolutions-child_theme/**/*.php",
+			"./**/*.html",
+			"../clubitsolutions-child_theme/**/*.html",
 			"!./functions.php"
 		],
 		static: "./assets",

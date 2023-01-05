@@ -181,7 +181,7 @@ function clubitsolutions_theme_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-	if (strstr($_SERVER['SERVER_NAME'], '.local') && false) {
+	if (strstr($_SERVER['SERVER_NAME'], '.local') && true) {
 		wp_enqueue_script( 'clubitsolutions-js', 'http://localhost:8080/index.js', array(),
 			wp_get_theme()->get
 			( 'Version' ) );
