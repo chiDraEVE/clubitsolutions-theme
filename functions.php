@@ -175,46 +175,21 @@ function clubitsolutions_theme_scripts() {
 	wp_enqueue_style( 'clubitsolutions-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'clubitsolutions-theme-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'clubitsolutions-theme-navigation', get_template_directory_uri() . '/assets/navigation.js', array
-	(), _S_VERSION, true );
+//	wp_enqueue_script( 'clubitsolutions-theme-navigation', get_template_directory_uri() . '/assets/navigation.js', array
+//	(), _S_VERSION, true );
 	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-	if (strstr($_SERVER['SERVER_NAME'], '.local') && false) {
+	if (strstr($_SERVER['SERVER_NAME'], '.local') && true) {
 		wp_enqueue_script( 'clubitsolutions-js', 'http://localhost:8080/index.js', array(),
 			wp_get_theme()->get
 			( 'Version' ) );
+		wp_enqueue_script( 'clubitsolutions-style', 'http://localhost:8080/style.js', array(),
+			wp_get_theme()->get
+			( 'Version' ) );
 	} else {
-		wp_enqueue_style('clubitsolutions-style', get_template_directory_uri() . '/assets/720.95870dabed49ecb5a3e8.css');
+		wp_enqueue_style('clubitsolutions-style', get_template_directory_uri() . '/assets/style.css');
 	}
 }
 add_action( 'wp_enqueue_scripts', 'clubitsolutions_theme_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
-}
-

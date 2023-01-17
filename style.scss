@@ -51,7 +51,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 // Import variables and mixins.
-@import "abstracts/abstracts";
+@import "sass/abstracts/abstracts";
 
 /*--------------------------------------------------------------
 # Generic
@@ -59,29 +59,29 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Normalize
 --------------------------------------------- */
-@import "generic/normalize";
+@import "sass/generic/normalize";
 
 /* Box sizing
 --------------------------------------------- */
-@import "generic/box-sizing";
+@import "sass/generic/box-sizing";
 
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
-@import "base/base";
+@import "sass/base/base";
 
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
  //@import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
  //@import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
-@import "layouts/header";
-@import "layouts/footer";
+@import "sass/layouts/header";
+@import "sass/layouts/footer";
 
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
-@import "components/components";
+@import "sass/components/components";
 
 /*--------------------------------------------------------------
 # Plugins
@@ -89,7 +89,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Jetpack infinite scroll
 --------------------------------------------- */
-@import "plugins/jetpack/infinite-scroll";
+@import "sass/plugins/jetpack/infinite-scroll";
 
 /*--------------------------------------------------------------
 # Utilities
@@ -97,8 +97,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Accessibility
 --------------------------------------------- */
-@import "utilities/accessibility";
+@import "sass/utilities/accessibility";
 
 /* Alignments
 --------------------------------------------- */
-@import "utilities/alignments";
+@import "sass/utilities/alignments";

@@ -29,14 +29,14 @@ class RunAfterCompile {
 
 				const scriptsRegEx = new RegExp("/assets/scripts.+?'", "g")
 				const vendorsRegEx = new RegExp("/assets/vendors.+?'", "g")
-				const cssRegEx = new RegExp("/assets/720.+?'", "g")
-				const cssDarkRegEx = new RegExp("/assets/422.+?'", "g")
+				const cssRegEx = new RegExp("/assets/style.+?'", "g")
+				const cssDarkRegEx = new RegExp("/assets/dark.+?'", "g")
 
 				let result = data
 					.replace(scriptsRegEx, `/assets/${manifest["scripts.js"]}'`)
 					.replace(vendorsRegEx, `/assets/${manifest["vendors~scripts.js"]}'`)
-					.replace(cssRegEx, `/assets/${manifest["720.css"]}'`)
-					.replace(cssDarkRegEx, `/assets/${manifest["422.css"]}'`)
+					.replace(cssRegEx, `/assets/${manifest["style.css"]}'`)
+					.replace(cssDarkRegEx, `/assets/${manifest["dark.css"]}'`)
 
 				fse.writeFile("./functions.php", result, "utf8", function (err) {
 					if (err) return console.log(err)

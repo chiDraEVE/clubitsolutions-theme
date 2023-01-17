@@ -1,20 +1,20 @@
 /* Typography
 --------------------------------------------- */
-@import "typography/typography";
+@import "sass/base/typography/typography";
 
 /* Elements
 --------------------------------------------- */
-@import "elements/body";
-@import "elements/hr";
-@import "elements/lists";
-@import "elements/media";
-@import "elements/tables";
+@import "sass/base/elements/body";
+@import "sass/base/elements/hr";
+@import "sass/base/elements/lists";
+@import "sass/base/elements/media";
+@import "sass/base/elements/tables";
 
 /* Links
 --------------------------------------------- */
-@import "elements/links";
+@import "sass/base/elements/links";
 
 /* Forms
 --------------------------------------------- */
-@import "elements/buttons";
-@import "elements/fields";
+@import "sass/base/elements/buttons";
+@import "sass/base/elements/fields";

@@ -1,5 +1,3 @@
-import("../sass/style.scss")
-
 import axios from "axios"
 
 async function getTitle() {

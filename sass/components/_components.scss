@@ -1,27 +1,27 @@
 /* Navigation
 --------------------------------------------- */
-@import "navigation/navigation";
+@import "sass/components/navigation/navigation";
 
 /* Posts and pages
 --------------------------------------------- */
-@import "content/posts-and-pages";
+@import "sass/components/content/posts-and-pages";
 
 /* Comments
 --------------------------------------------- */
-@import "comments/comments";
+@import "sass/components/comments/comments";
 
 /* Widgets
 --------------------------------------------- */
-@import "widgets/widgets";
+@import "sass/components/widgets/widgets";
 
 /* Media
 --------------------------------------------- */
-@import "media/media";
+@import "sass/components/media/media";
 
 /* Captions
 --------------------------------------------- */
-@import "media/captions";
+@import "sass/components/media/captions";
 
 /* Galleries
 --------------------------------------------- */
-@import "media/galleries";
+@import "sass/components/media/galleries";
