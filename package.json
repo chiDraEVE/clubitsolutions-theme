@@ -1,0 +1,39 @@
+{
+  "name": "twentytwenty-child",
+  "version": "1.0.0",
+  "description": "TwentyTwenty-Child-Theme for clubitsolutions.de",
+  "main": "index.js",
+  "scripts": {
+    "gulpwatch": "gulp watch",
+    "gulpstyles": "gulp styles",
+    "gulpscripts": "gulp scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "acnologia:repo/clubitsolutions.de/themes/twentytwenty-child"
+  },
+  "author": "Lukas Mainka",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-color-function": "^4.1.0",
+    "postcss-hexrgba": "^2.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.3",
+    "postcss-simple-vars": "^5.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
