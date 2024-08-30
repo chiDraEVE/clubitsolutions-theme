@@ -1,5 +1,5 @@
 /*
-Theme Name:     Twentytwenty-child
+Theme Name:     clubITsolutions-theme
 Theme URI:
 Description:    Twentytwenty child theme.
 Author:         Lukas Mainka
@@ -306,7 +306,6 @@ Version:        0.1.0
     grid-gap: 1.5rem;
     background-color: #273234;
     padding: 1rem;
-    text-decoration: line-through;
 }
 .offer__item__icon {
       grid-column: 1 / 1;
@@ -420,7 +419,6 @@ Version:        0.1.0
     justify-content: center;
     align-items: center;
     transition: all .2s;
-    text-decoration: line-through;
 }
 .clubitsolutions-offer__item > span {
       transform: skew(15deg); }

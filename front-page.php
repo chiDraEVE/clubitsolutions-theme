@@ -82,7 +82,7 @@ get_header();
 								</a>
 								<a href="#umsatzsteuer-frei">
 									<li class="clubitsolutions-offer__item">
-										<span>Umsatzsteuerfrei in 2020</span>
+										<span>Umsatzsteuerfrei in 2024</span>
 									</li>
 								</a>
 								<a href="#passende-angebote">
@@ -133,11 +133,11 @@ get_header();
 							<use xlink:href="<?php echo get_stylesheet_directory_uri(); ?>/img/sprite
 							.svg#icon-coin-euro"></use>
 						</svg>
-						<h4>Umsatzsteuerfrei in 2020</h4>
-						<p>Für das Jahr 2020 greift bei mir die Kleinunternehmerregelung nach §19 UStG.<br>
+						<h4>Umsatzsteuerfrei in 2024</h4>
+						<p>Für das Jahr 2024 greift bei mir die Kleinunternehmerregelung nach §19 UStG.<br>
 						Dies ist besonders interessant für Existenzgründer, Start-Ups, gemeinnützige Vereine,
 							Privatpersonen und alle anderen, die keine Vorsteuer geltend machen können. Sie sparen
-							bei mir die Umsatzsteuer von 16%.
+							bei mir die Umsatzsteuer von 19%.
 						</p>
 					</div class="offer__item">
 					<div id="passende-angebote" class="offer__item">
@@ -519,7 +519,7 @@ get_header();
 					</div>
 
 					<?php toTheTop(); ?>
-
+				<p>Portfolio-Items werden noch geändert. Die Projekte aus Udemy-Kursen landen demnächst auf fullstackdevelopment.de</p>
 					<?php
 						portfolio();
 					?>
