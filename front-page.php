@@ -414,7 +414,7 @@ get_header();
 									<h6>Open-Source</h6>
 									<p>WordPress ist Open-Source. Sehr viele Entwickler arbeiten ständig daran
 										Sicherheitslücken zu schließen und WordPress um Funktionen zu erweitern.
-										Auch Themes und Plugins sind quelloffen. Das ist eine spitzen Gelegenheit in
+										Auch Themes und Plugins sind quelloffen. Das ist eine Spitzen-Gelegenheit in
 										Code einzutauchen, der von anderen geschrieben wurde.
 									</p>
 								</div>
@@ -428,7 +428,7 @@ get_header();
 									<h6>SEO-freundlich</h6>
 									<p>XML-Sitemaps werden optimal für Google erstellt und es gibt viele Plugins,
 										die eine große Hilfe sind. Man kann die Meta-Informationen direkt beim
-										erstellen von Content bearbeiten und es gibt eine gute Möglichkeit für das
+										Erstellen von Content bearbeiten und es gibt eine gute Möglichkeit für das
 										Tracking, wie Inhalte performen.</p>
 								</div>
 							</li>
@@ -441,7 +441,7 @@ get_header();
 									<h6>Flache Lernkurve</h6>
 									<p>Der Einstieg in WordPress ist für Webentwickler sehr einfach und fast
 										selbsterklärend. Anschließend kann man sich an erste Child-Themes und
-										Plugins heranwagen. Das meistern von Custom-Themes und von eigenen
+										Plugins heranwagen. Das Meistern von Custom-Themes und von eigenen
 										Gutenberg-Blocks
 										machen einen dann zum echten WordPress-Entwickler.</p>
 								</div>
@@ -455,7 +455,7 @@ get_header();
 									<h6>Riesige Entwickler-Community</h6>
 									<p>Es gibt weltweite Treffen von WordPress-Entwicklern und WordPress-Nutzern,
 										die sich austauschen, weiterbilden und Vorträge halten. Es gibt Foren,
-										Facebook-Gruppen, Discord-Channels,... die Community ist freundlich und
+										Facebook-Gruppen, Discord-Channels,.. die Community ist freundlich und
 										hilfsbereit.</p>
 								</div>
 							</li>
