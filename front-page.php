@@ -311,9 +311,9 @@ get_header();
 								<div class="wordpress__list__text">
 									<h6>Social-Media-Integration</h6>
 									<p>Links zu Facebook, Instagram und Co sind mittlerweile auf fast jeder Seite zu
-										sehen und natürlich auch in WordPress möglich. Darüberhinaus kann man mit
-										Plugins dafür sorgen, dass ein veröffentlicher Beitrag in den sozialen
-										Netwerk geteilt wird oder dass ein Besucher Inhalte Ihrer Seite in seiner
+										sehen und natürlich auch in WordPress möglich. Darüber hinaus kann man mit
+										Plugins dafür sorgen, dass ein veröffentlichter Beitrag in den sozialen
+										Netzwerken geteilt wird oder dass ein Besucher Inhalte Ihrer Seite in seiner
 										Timeline teilen kann.
 									</p>
 								</div>
